@@ -1,0 +1,197 @@
+h2{
+	font-size: 1.5em;
+}
+h3 {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+/*************************************************************/
+/******* banner Portland Roadside Architecture ***************/
+/*************************************************************/
+
+
+#pInPortland {
+	font-size: 4em;
+	/*border-bottom: 5px solid white;*/
+}
+
+.banner {
+	font-size: 3em;
+	text-align: left;
+}
+
+/*************************************************************/
+/************* main content sections *************************/
+/*************************************************************/
+
+p {
+	font-size: 1em;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.mainBlurbs{
+	padding: 0px 15px;
+}
+
+/*************************************************************/
+/****************** content sections *************************/
+/*************************************************************/
+
+.firstLetter {
+	font-size: 3em;
+	color: #f4bc05;
+}
+
+img {
+	border: solid 2px white;
+	border-radius: 12%;
+	max-width: 90%;
+
+}
+ img:hover{
+	border: solid 6px #f4bc05;
+	cursor: pointer;
+	cursor: hand;
+ }
+
+
+img + p{
+	text-align: center;
+	max-width: 50%;
+	margin-left: 25%;
+}
+
+.imageWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imageAndCaption{
+    align-self: flex-end;
+	justify-content: center;
+}
+
+/*************************************************************/
+/******************* lightbox  *******************************/
+/*************************************************************/
+#lightbox{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, .8);
+	position: fixed;
+	top:0;
+	left: 0;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#imgDiv{
+	opacity: 1;
+	max-height: 90%;
+}
+
+.imgSelf{
+	min-height: 75%;
+}
+
+#extraDiv{
+	height: 100%;
+	width:100%;
+	background-color: rgba(13, 0, 57, .8);
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+#extraExtraDiv{
+	margin: auto;
+	height: 95%;
+	width: 95%;
+}
+
+#imgCapDiv {
+	margin: auto;
+	width: 90%;
+	height: 90%;
+}
+
+#capDiv{
+	margin-bottom: auto;
+}
+
+/*************************************************************/
+/************* google map link *******************************/
+/*************************************************************/
+
+#googleLinkDiv {
+	font-size: 2em;
+}
+
+/*************************************************************/
+/************* contact section *******************************/
+/*************************************************************/
+#contactSection{
+	display: flex;
+	justify-content: center;
+}
+
+form{
+	max-width: 75%;
+}
+
+
+input{
+	font-size: 1.5em;
+}
+
+input[type="radio"]{
+	min-height: 25px;
+	min-width: 25px;
+}
+
+label{
+	font-size: 1.5em;
+}
+
+input[type="checkbox"]{
+	min-height: 25px;
+	min-width: 25px;
+}
+
+.contactSpan{
+	font-size: 2em;
+}
+
+.button{
+    max-width: 45%;
+    font-size: 1.5em;
+    display: inline-block;
+    margin: 1em 1em;
+    padding: 20px;
+}
+
+#emailDisclaimer{
+	font-size: 1.25em;
+}
+
+/*************************************************************/
+/**************** scroll arrow *******************************/
+/*************************************************************/
+#scrollArrow{
+  	font-size: 1.5em;
+	color: #F4bC05;
+    opacity: .8;
+	position: fixed;
+	bottom: 25px;
+	right: 40px;
+	text-decoration: underline;
+}
