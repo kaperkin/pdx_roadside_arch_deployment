@@ -1,0 +1,56 @@
+
+body {
+	background-color: #0D0039;
+	color: #fff;
+}
+
+.banner {
+	font-size: 2rem;
+	text-align: left
+}
+ a {
+	text-decoration: underline;
+	color: #fff;
+ 
+ }
+
+.firstLetter {
+	font-size: 2.5rem;
+	color: #F4bC05;
+}
+
+#pInPortland {
+	font-size: 6rem;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+#googleLink {
+	color: #F4bC05;
+	font-size: 1.5rem;
+}
+ 
+.wrapper {
+	flex: 1;
+} 
+ 
+img {
+	display: flex;
+	align-content: space-around;
+	border: solid 2px white;
+	border-radius: 12%;
+	max-width: 270px;
+	max-height:270px;
+	margin: auto;	
+}
+
+p {
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+#explore {
+	text-align: center;
+}

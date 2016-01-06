@@ -1,0 +1,154 @@
+/*************************************************************/
+/*********************body CSS***************************/
+/*************************************************************/
+body {
+	background-color: #0D0039;
+	color: #fff;
+max-width: 1300px;
+margin: auto;
+}
+
+/*************************************************************/
+/******underline content section headings and banner******/
+/*************************************************************/
+.mainBlurbs div{
+	margin-bottom: 2em;
+	border-bottom: 2px solid white;
+	transition: border 1s ease;
+}
+
+.mainBlurbs div:hover{
+	cursor: pointer;
+	cursor: hand;
+	border-bottom-color: #F4bC05;
+}
+
+div h3, h1{
+	-webkit-margin-after: 0;
+}
+.underline{
+transition: all 1s ease;
+}
+
+.underline:hover{
+	cursor: pointer;
+	cursor: hand;
+	color: #F4bC05;
+}
+
+.underline:hover .firstLetter{
+	cursor: pointer;
+	cursor: hand;
+	color: #fff;
+}
+
+.underline:visited {
+	color: #fff;
+}
+
+.contactLink{
+	text-decoration: underline;
+}
+
+/*************************************************************/
+/************* content sections *******************************/
+/*************************************************************/
+
+p {
+	margin-top: 0px;
+	margin-bottom: 55px;
+}
+
+/*************************************************************/
+/************* google map link *******************************/
+/*************************************************************/
+#explore {
+	text-align: center;
+}
+
+#googleLinkDiv {
+	color: #f4bc05;
+	font-size: 2.5em;
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+#googleLink:hover{
+	color: #fff;
+}
+
+#googleLink:visited{
+	color: #F4bC05;
+}
+
+/*************************************************************/
+/************* contact section *******************************/
+/*************************************************************/
+input{
+	border-radius: 6px;
+}
+
+.inputSection>input{
+    display: block;
+}
+
+input[type="radio"]:checked + label{
+	color: #f4bc05;
+	opacity: .8;
+}
+
+input[type="radio"]:hover{
+	cursor: pointer;
+	cursor: hand;
+}
+
+input[type="checkbox"]:hover{
+	cursor: pointer;
+	cursor: hand;
+}
+
+.button{
+	border-radius: 6px;
+    text-align: center;
+}
+
+.button:hover{
+	cursor: pointer;
+	cursor: hand;
+}
+
+#button-display{
+	align-content: center;
+}
+
+#submitBtn{
+	background-color: #f4bc05;
+}
+
+#cancelBtn{
+	background-color: #570000;
+}
+
+.error{
+	border: 8px solid firebrick;
+	color: darkred;
+	font-weight: bold;
+}
+
+#emailDisclaimer{
+	font-size: 2.25em;
+	color: #F4bC05;
+}
+
+/*************************************************************/
+/**************** scroll arrow *******************************/
+/*************************************************************/
+footer{
+	transition: all 1s ease;
+}
+
+#scrollArrow:hover{
+	cursor: pointer;
+	cursor: hand;
+	color: white;
+}
